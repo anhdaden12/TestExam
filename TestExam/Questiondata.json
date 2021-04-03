@@ -1,0 +1,276 @@
+{
+    "datas": [
+        [
+            {
+                "title": "When an investigator contacts by telephone the domain administrator or controller listed by a Who is lookup to request all e-mails sent and received for a user account be preserved, what U.S.C. statute authorizes this phone call and obligates the ISP to preserve e-mail records?",
+                "correct": "ans4",
+                "isResult": false,
+                "answers":[
+                    {
+                        "id": "ans1",
+                        "isSelect": false,
+                        "value": "Title 18, Section 1030"
+                    },
+                    {
+                        "id": "ans2",
+                        "isSelect": false,
+                        "value": "Title 18, Section 2703(d)"
+                    },
+                    {
+                        "id": "ans3",
+                        "isSelect": false,
+                        "value": "Title 18, Section Chapter 90"
+                    },
+                    {
+                        "id": "ans4",
+                        "isSelect": false,
+                        "value": "Title 18, Section 2703(f)"
+                    }
+                ]
+            },
+            {
+                "title": "Item 2If you come across a sheepdip machine at your client site, what would you infer?",
+                "correct": "ans3",
+                "isResult": false,
+                "answers":[
+                    {
+                        "id": "ans1",
+                        "isSelect": false,
+                        "value": "A sheepdip coordinates several honeypots"
+                    },
+                    {
+                        "id": "ans2",
+                        "isSelect": false,
+                        "value": "A sheepdip computer is another name for a honeypot"
+                    },
+                    {
+                        "id": "ans3",
+                        "isSelect": false,
+                        "value": "A sheepdip computer is used only for virus-checking."
+                    },
+                    {
+                        "id": "ans4",
+                        "isSelect": false,
+                        "value": "A sheepdip computer defers a denial of service attack"
+                    }
+                ]
+            },
+            {
+                "title": "In a computer forensics investigation, what describes the route that evidence takes from the time you find it until the case is closed or goes to court?",
+                "correct": "ans3",
+                "isResult": false,
+                "answers":[
+                    {
+                        "id": "ans1",
+                        "isSelect": false,
+                        "value": "rules of evidence"
+                    },
+                    {
+                        "id": "ans2",
+                        "isSelect": false,
+                        "value": "law of probability"
+                    },
+                    {
+                        "id": "ans3",
+                        "isSelect": false,
+                        "value": "chain of custody"
+                    },
+                    {
+                        "id": "ans4",
+                        "isSelect": false,
+                        "value": "policy of separation"
+                    }
+                ]
+            },
+            {
+                "title": "How many characters long is the fixed-length MD5 algorithm checksum of a critical system file?",
+                "correct": "ans3",
+                "isResult": false,
+                "answers":[
+                    {
+                        "id": "ans1",
+                        "isSelect": false,
+                        "value": "128"
+                    },
+                    {
+                        "id": "ans2",
+                        "isSelect": false,
+                        "value": "64"
+                    },
+                    {
+                        "id": "ans3",
+                        "isSelect": false,
+                        "value": "32"
+                    },
+                    {
+                        "id": "ans4",
+                        "isSelect": false,
+                        "value": "16"
+                    }
+                ]
+            },
+            {
+                "title": "You are working on a thesis for your doctorate degree in Computer Science. Your thesis is based on HTML, DHTML, and other web-based languages and how they have evolved over the years.\nYou navigate to archive. org and view the HTML code of news.com. You then navigate to the current news.com website and copy over the source code. While searching through the code, you come across something abnormal: What have you found?",
+                "correct": "ans1",
+                "isResult": false,
+                "answers":[
+                    {
+                        "id": "ans1",
+                        "isSelect": false,
+                        "value": "Web bug"
+                    },
+                    {
+                        "id": "ans2",
+                        "isSelect": false,
+                        "value": "CGI code"
+                    },
+                    {
+                        "id": "ans3",
+                        "isSelect": false,
+                        "value": "Trojan.downloader"
+                    },
+                    {
+                        "id": "ans4",
+                        "isSelect": false,
+                        "value": "Blind bug"
+                    }
+                ]
+            },
+            {
+                "title": "You are using DriveSpy, a forensic tool and want to copy 150 sectors where the starting sector is 1709 on the primary hard drive. Which of the following formats correctly specifies these sectors?",
+                "correct": "ans2",
+                "isResult": false,
+                "answers":[
+                    {
+                        "id": "ans1",
+                        "isSelect": false,
+                        "value": "0:1000, 150"
+                    },
+                    {
+                        "id": "ans2",
+                        "isSelect": false,
+                        "value": "0:1709, 150"
+                    },
+                    {
+                        "id": "ans3",
+                        "isSelect": false,
+                        "value": "1:1709, 150"
+                    },
+                    {
+                        "id": "ans4",
+                        "isSelect": false,
+                        "value": "0:1709-1858"
+                    }
+                ]
+            },
+            {
+                "title": "A honey pot deployed with the IP 172.16.1.108 was compromised by an attacker. Given below is an excerpt from a Snort binary capture of the attack. Decipher the activity carried out by the attacker by studying the log. Please note that you are required to infer only what is explicit in the excerpt.\n(Note: The student is being tested on concepts learnt during passive OS fingerprinting, basic TCP/IP connection concepts and the ability to read packet signatures from a sniff dump.)\n03/15-20:21:24.107053 211.185.125.124:3500 -> 172.16.1.108:111\nTCP TTL:43 TOS:0x0 ID:29726 IpLen:20 DgmLen:52 DF\n***A**** Seq: 0x9B6338C5 Ack: 0x5820ADD0 Win: 0x7D78 TcpLen: 32\nTCP Options (3) => NOP NOP TS: 23678634 2878772 =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=\n03/15-20:21:24.452051 211.185.125.124:789 -> 172.16.1.103:111\nUDP TTL:43 TOS:0x0 ID:29733 IpLen:20 DgmLen:84\n\nLen: 64 -\n01 0A 8A 0A 00 00 00 00 00 00 00 02 00 01 86 A0 . .............\n00 00 00 02 00 00 00 03 00 00 00 00 00 00 00 00 ................\n00 00 00 00 00 00 00 00 00 01 86 B8 00 00 00 01 . ..............\n00 00 00 11 00 00 00 00 ........\n=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=\n03/15-20:21:24.730436 211.185.125.124:790 -> 172.16.1.103:32773\nUDP TTL:43 TOS:0x0 ID:29781 IpLen:20 DgmLen:1104\n\nLen: 1084 -\n47 F7 9F 63 00 00 00 00 00 00 00 02 00 01 86 B8",
+                "isResult": false,
+                "correct": "ans1",
+                "answers":[
+                    {
+                        "id": "ans1",
+                        "isSelect": false,
+                        "value": "The attacker has conducted a network sweep on port 111"
+                    },
+                    {
+                        "id": "ans2",
+                        "isSelect": false,
+                        "value": "The attacker has scanned and exploited the system using Buffer Overflow"
+                    },
+                    {
+                        "id": "ans3",
+                        "isSelect": false,
+                        "value": "The attacker has used a Trojan on port 32773"
+                    },
+                    {
+                        "id": "ans4",
+                        "isSelect": false,
+                        "value": "The attacker has installed a backdoor"
+                    }
+                ]
+            },
+            {
+                "title": "The newer Macintosh Operating System is based on:",
+                "correct": "ans2",
+                "isResult": false,
+                "answers":[
+                    {
+                        "id": "ans1",
+                        "isSelect": false,
+                        "value": "OS/2"
+                    },
+                    {
+                        "id": "ans2",
+                        "isSelect": false,
+                        "value": "BSD Unix"
+                    },
+                    {
+                        "id": "ans3",
+                        "isSelect": false,
+                        "value": "Linux"
+                    },
+                    {
+                        "id": "ans4",
+                        "isSelect": false,
+                        "value": "Microsoft Windows"
+                    }
+                ]
+            },
+            {
+                "title": "Before you are called to testify as an expert, what must an attorney do first?",
+                "correct": "ans4",
+                "isResult": false,
+                "answers":[
+                    {
+                        "id": "ans1",
+                        "isSelect": false,
+                        "value": "engage in damage control"
+                    },
+                    {
+                        "id": "ans2",
+                        "isSelect": false,
+                        "value": "prove that the tools you used to conduct your examination are perfect"
+                    },
+                    {
+                        "id": "ans3",
+                        "isSelect": false,
+                        "value": "Linux"
+                    },
+                    {
+                        "id": "ans4",
+                        "isSelect": false,
+                        "value": "qualify you as an expert witness"
+                    }
+                ]
+            },
+            {
+                "title": "You are contracted to work as a computer forensics investigator for a regional bank that has four 30 TB storage area networks that store customer data.\nWhat method would be most efficient for you to acquire digital evidence from this network?",
+                "correct": "ans3",
+                "isResult": false,
+                "answers":[
+                    {
+                        "id": "ans1",
+                        "isSelect": false,
+                        "value": "create a compressed copy of the file with DoubleSpace"
+                    },
+                    {
+                        "id": "ans2",
+                        "isSelect": false,
+                        "value": "create a sparse data copy of a folder or file"
+                    },
+                    {
+                        "id": "ans3",
+                        "isSelect": false,
+                        "value": "make a bit-stream disk-to-image file"
+                    },
+                    {
+                        "id": "ans4",
+                        "isSelect": false,
+                        "value": "make a bit-stream disk-to-disk file"
+                    }
+                ]
+            }
+        ]
+    ]
+}
